@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_marginTop="20dp">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/exception_text"
+        android:layout_centerHorizontal="true"
+        android:textColor="#CA1A1A"
+        android:text="Sorry an  error has occurred \n Kindly go back and try again"
+
+       />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/backgroungColor"
+            android:layout_below="@+id/exception_text"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="Go Back"
+            android:textColor="#15299A"
+            android:textStyle="bold" />
+
+</RelativeLayout>
+</ScrollView>

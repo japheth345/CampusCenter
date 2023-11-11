@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "330053846289",
+    "firebase_url": "https://thecomradecenter-default-rtdb.firebaseio.com",
+    "project_id": "thecomradecenter",
+    "storage_bucket": "thecomradecenter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330053846289:android:7ec08d5d4ad1133a97f8b0",
+        "android_client_info": {
+          "package_name": "com.japho.campus.center"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330053846289-85b2msuhi79kkb53su3eilgmgdk4qgl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYCwe_jXxYA0aHtwM6Mn9ZGEP9zu48Nlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330053846289-85b2msuhi79kkb53su3eilgmgdk4qgl7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330053846289:android:b88520f1900d33ee97f8b0",
+        "android_client_info": {
+          "package_name": "com.rishav.firebasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330053846289-85b2msuhi79kkb53su3eilgmgdk4qgl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYCwe_jXxYA0aHtwM6Mn9ZGEP9zu48Nlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330053846289-85b2msuhi79kkb53su3eilgmgdk4qgl7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

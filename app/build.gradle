@@ -1,0 +1,110 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.japho.campus.center'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.japho.campus.center"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-auth:21.2.0'
+
+
+    implementation 'com.google.firebase:firebase-auth:21.2.0'
+    implementation 'com.google.firebase:firebase-database:20.1.0'
+    implementation 'com.google.firebase:firebase-storage:20.1.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.afollestad.material-dialogs:core:0.9.5.0'
+
+    implementation 'com.google.firebase:firebase-auth:21.2.0'
+    implementation 'com.google.firebase:firebase-database:20.1.0'
+    implementation 'com.google.firebase:firebase-storage:20.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-messaging:23.1.2'
+    //Volley
+    implementation 'com.android.volley:volley:1.2.1'
+    //Glide...
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+
+    implementation 'com.mikhaellopez:circularimageview:4.2.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.google.mlkit:smart-reply:17.0.2'
+
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    implementation "com.hendraanggrian.appcompat:socialview:0.2"
+    implementation "com.hendraanggrian.appcompat:socialview-commons:0.2"
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+
+
+    implementation 'com.google.android.exoplayer:exoplayer:2.10.8'
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.10.8'
+    implementation 'com.google.android.exoplayer:exoplayer-dash:2.10.8'
+    implementation 'com.google.android.exoplayer:exoplayer-hls:2.10.8'
+    implementation 'com.google.android.exoplayer:exoplayer-smoothstreaming:2.10.8'
+
+    // dependency for exoplayer
+
+    implementation "com.google.android.exoplayer:exoplayer:r2.4.0"
+
+// for core support in exoplayer.
+
+    implementation "com.google.android.exoplayer:exoplayer-core:r2.4.0"
+
+// for adding dash support in our exoplayer.
+
+    implementation "com.google.android.exoplayer:exoplayer-dash:r2.4.0"
+
+// for adding hls support in exoplayer.
+
+    implementation "com.google.android.exoplayer:exoplayer-hls:r2.4.0"
+
+// for smooth streaming of video in our exoplayer.
+
+    implementation "com.google.android.exoplayer:exoplayer-smoothstreaming:r2.4.0"
+
+// for generating default ui of exoplayer
+
+    implementation "com.google.android.exoplayer:exoplayer-ui:r2.4.0"
+    implementation 'com.firebaseui:firebase-ui-database:4.3.2'
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+}
+apply plugin: 'com.google.gms.google-services'
